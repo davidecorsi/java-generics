@@ -1,5 +1,5 @@
 
-public class Bottiglia<T> {
+public class Bottiglia<T extends Bevanda> {
 	private T contenuto;
 	
 	public Bottiglia(T t) {
